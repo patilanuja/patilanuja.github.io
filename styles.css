@@ -1,0 +1,248 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4e4e7; /* Set a background color */
+}
+
+/* Header styles */
+header{
+    width: 100%;
+    height: 15vh;
+    /* background-color: #64748b; */
+    background-color: #334155;
+}
+.container{
+    padding: 10px 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width :0;
+    height: 3px;
+    background: #0f172a;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.header-text{
+   margin-top: 20px;
+   font-size: 30px;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.about-image {
+    width: 100%;
+    float: center;
+}
+
+.about-content {
+    width: 100%;
+    float: left;
+}
+
+/* Style the image */
+.about-image img {
+    width: 50%;
+    height: 50%;
+}
+
+.about-content h1{
+    color: #155e75;
+    position: relative;
+}
+#experience h1{
+    color: #155e75;
+    position: relative;
+}
+#projects h1{
+    color: #155e75;
+    position: relative;
+}
+#contact h1{
+    color: #155e75;
+    position: relative;
+}
+
+.round-img {
+    border-radius: 5%;
+}
+
+td {
+    padding: 10px
+}
+
+/* Heading styles */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Links styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* FontAwesome icons */
+i {
+    margin-right: 5px;
+}
+
+
+/* Contact section styles */
+#contact {
+    text-align: center;
+}
+
+
+/* CSS for separating contact elements with vertical bars */
+#contact p {
+    display: inline;
+    text-align: center;
+    margin-right: 10px; /* Adjust the spacing as needed */
+    border-right: 1px solid #333; /* Add vertical bar between elements */
+    padding-right: 10px; /* Add padding to space the vertical bar */
+}
+
+/* Remove vertical bar after the last contact element */
+#contact p:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 5px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 2px 0 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #f7fafa;
+}
+
+button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+      
+
+    
+
+
+/* css for small screen */
+
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+
+    nav .fa-solid{
+        display:block;
+        font-size: 25px;
+        color: #fff;
+    }
+    nav ul{
+        background-color: #334155;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px;
+        
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    } 
+
+    .button {
+        padding: 24px;
+      }
+
+    .about-image img{
+        flex-basis: 100%;
+    }
+    
+
+}
