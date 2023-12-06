@@ -44,7 +44,6 @@ nav ul li a::after{
     content: '';
     width :0;
     height: 3px;
-    background: #0f172a;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -91,6 +90,22 @@ section {
     color: #155e75;
     position: relative;
 }
+
+.experience-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.experience-year {
+    text-align: right;
+    font-weight: bold;
+}
+.project-year {
+    text-align: right;
+    font-weight:550;
+}
+
 #projects h1{
     color: #155e75;
     position: relative;
@@ -192,6 +207,7 @@ button:focus {
   outline: 0;
 }
       
+
 
     
 
