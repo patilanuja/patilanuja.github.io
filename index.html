@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" type="image/png" href="./Images/favicon-32x32.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="./Images/favicon-32x32.png" />
     <title>Anuja Patil</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- <nav>
+      <!-- <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Work Experience</a></li>
@@ -19,144 +22,169 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav> -->
-        <div class="container">
-            <nav>
-                <img src="" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>      
-        </div>
+      <div class="container">
+        <nav>
+          <img src="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
     </header>
 
     <div>
-        <section id="about">
-            <table>
-                <tr>
-                    <td>
-                        <div class="about-content">
-                            <h1>Anuja Patil</h1>
-                            <p>
-                                I am a Master of Science student in Computer Science at Clemson University where I am studying software engineering with a concentration on software design and development approaches.
+      <section id="about">
+        <table>
+          <tr>
+            <td>
+              <div class="about-content">
+                <h1>Anuja Patil</h1>
+                <p>
+                  I am a Master of Science student in Computer Science at
+                  Clemson University where I am studying software engineering
+                  with a concentration on software design and development
+                  approaches. Through my coursework and projects, I have
+                  developed skills in areas like web development, cloud
+                  computing, and data science. I have a particular interest in
+                  leveraging advancements in cloud platforms and AI to build
+                  innovative web applications and engaging digital experiences.
 
-Through my coursework and projects, I have developed skills in areas like web development, cloud computing, and data science. I have a particular interest in leveraging advancements in cloud platforms and AI to build innovative web applications and engaging digital experiences.
+                  <!-- As I look ahead to a career in software engineering, I am eager to apply my academic knowledge and hands-on abilities to make meaningful contributions to impactful products and services. -->
+                </p>
+              </div>
+            </td>
+            <td style="text-align: center">
+              <div class="about-image">
+                <img src="./Images/Anuja.JPG" alt="Image" class="round-img" />
+              </div>
+            </td>
+          </tr>
+        </table>
+      </section>
 
-<!-- As I look ahead to a career in software engineering, I am eager to apply my academic knowledge and hands-on abilities to make meaningful contributions to impactful products and services. -->
-                               
-                            </p>
-                        </div>
-                    </td>
-                    <td style="text-align: center;">
-                        <div class="about-image">
-                            <img src="./Images/Anuja.JPG" alt="Image" class="round-img">
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </section>        
+      <section id="experience">
+        <h1>Work Experience</h1>
+        <div>
+          <b>Graduate Researcher</b> &#124;
+          <a href="https://haielab.org/" id="haie">Human-AI Empowerment</a>,
+          Clemson University, SC, USA &#124;
+          <span class="experience-year">May’23 - Aug’23</span>
+          <ul>
+            <li>
+              Implemented SQLite database connections, enabling comprehensive
+              window activity logging and retrieval, crucial for monitoring
+              active windows during video processing.
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div>
+          <b>Software Engineer</b> &#124;
+          <a href="https://www.happiestminds.com/" id="HM">Happiest Minds</a>,
+          Bengaluru, India &#124;
+          <span class="experience-year">Aug’20 - Jun’22</span>
+          <ul>
+            <li>
+              Spearheaded end-to-end User Interface test automation frameworks
+              using Selenium WebDriver, Java, and TestNG, slashing manual
+              testing time by 40% and ensuring consistent functionality across
+              browsers.
+            </li>
+            <li>
+              Pioneered a new test automation suite using Cucumber and Serenity
+              for migration to an online environment, facilitating smooth
+              transition and acceptance test-driven development.
+            </li>
+            <li>
+              Implemented REST API automation framework using RestAssured,
+              achieving a 20% increase in test coverage and a 35% reduction in
+              regression testing time.
+            </li>
+            <li>
+              Guided 2 junior engineers through code walkthroughs, design
+              reviews, and knowledge sharing around test automation best
+              practices.
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section id="experience">
-            <h1>Work Experience</h1>
-                <div>
-                    <b>Graduate Researcher</b> &#124; <a href="https://haielab.org/" id="haie">Human-AI Empowerment</a>, Clemson University, SC, USA  &#124;  <span class="experience-year">May’23 - Aug’23</span>
-                    <ul>
-                        <li>
-                            Implemented SQLite database connections, enabling comprehensive window activity logging and retrieval,
-    crucial for monitoring active windows during video processing.
-                        </li>
-                    </ul>
-                </div>
-            <hr>
-            <div>
-                <b>Software Engineer</b> &#124; <a href="https://www.happiestminds.com/" id="HM">Happiest Minds</a>, Bengaluru, India &#124; <span class="experience-year">Aug’20 - Jun’22</span>
-                <ul>
-                    <li>
-                        Spearheaded end-to-end User Interface test automation frameworks using Selenium WebDriver, Java, and
-TestNG, slashing manual testing time by 40% and ensuring consistent functionality across browsers.
+      <section id="projects">
+        <h1>Projects</h1>
+        <div>
+          <li>
+            Hangman Game &#124;
+            <span class="project-year"> Sep’23 - Nov’23</span> &#124;
+            <a href="https://thehangman.streamlit.app"> Website </a> &#124;
+            <a href="https://github.com/patilanuja/game"> Code </a>
+          </li>
+        </div>
+        <div class="projects-item">
+          <li>
+            Real-Time Speech Translation App &#124;
+            <span class="project-year">Jan’23 - Apr’23</span> &#124;
+            <a
+              href="https://github.com/patilanuja/Speech-To-Speech-Translation-System"
+            >
+              Code
+            </a>
+          </li>
+        </div>
+        <div class="projects-item">
+          <li>
+            Emotion Detection through Audio-Visual Analysis Model &#124;
+            <span class="project-year"> Jan’23 - Apr’23</span> &#124;
+            <a href=".\Emotion Detection Final Report.pdf"> Project Report </a>
+          </li>
+        </div>
+        <div class="projects-item">
+          <li>
+            Zombie Invasion Shooter &#124;
+            <span class="project-year"> Aug’22 - Dec’22</span> &#124;
+            <a href="https://github.com/patilanuja/Shoot-At-Sight-Python-Game">
+              Code
+            </a>
+          </li>
+        </div>
+      </section>
 
-                    </li>
-                    <li>
-                        Pioneered a new test automation suite using Cucumber and Serenity for migration to an online environment,
-facilitating smooth transition and acceptance test-driven development.
-
-                    </li>
-                    <li>
-                        Implemented REST API automation framework using RestAssured, achieving a 20% increase in test coverage
-and a 35% reduction in regression testing time.
-                    </li>
-                    <li>
-                        Guided 2 junior engineers through code walkthroughs, design reviews, and knowledge sharing around test
-automation best practices.
-                    </li>
-                </ul>
-            </div>
-        </section>
-    
-        <section id="projects">
-            <h1>Projects</h1>
-            <div>
-                <li> Hangman Game 
-                    &#124; <span class="project-year"> Sep’23 - Nov’23</span>  &#124; 
-                    <a href="https://thehangman.streamlit.app">
-                        Website
-                    </a> &#124; 
-                    <a href="https://github.com/patilanuja/game">
-                        Code
-                    </a>
-                </li> 
-            </div>
-            <div class="projects-item">
-                <li>
-                    Speech-To-Speech Translation System  
-                    &#124; <span class="project-year">Jan’23 - Apr’23</span>  &#124; 
-                    <a href="https://github.com/patilanuja/Speech-To-Speech-Translation-System">
-                        Code
-                    </a> 
-                </li> 
-            </div>
-            <div class="projects-item">
-                <li>Multimodal Analysis for Emotion Recognition 
-                    &#124; <span class="project-year"> Jan’23 - Apr’23</span>  &#124; 
-                    <a href=".\Emotion Detection Final Report.pdf">
-                        Project Report
-                    </a>
-                </li> 
-            </div>
-            <div class="projects-item">
-                <li>Shoot At Sight 
-                    &#124; <span class="project-year"> Aug’22 - Dec’22</span>  &#124; 
-                    <a href="https://github.com/patilanuja/Shoot-At-Sight-Python-Game">
-                        Code
-                    </a>
-                </li> 
-            </div>
-        </section>
-
-        <section id="contact">
-            <div id="conp">
-                <h1>Contact</h1>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:patilanuja98@gmail.com">patilanuja98@gmail.com</a></p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:ahpatil@clemson.edu">ahpatil@clemson.edu</a></p>
-                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/-anuja-patil/">Anuja Patil</a></p>
-                <p><i class="fab fa-github"></i> <a href="https://github.com/patilanuja">patilanuja</a></p>
-                <!-- <p><i class="fa fa-code"></i> <a href="https://leetcode.com/anuja_98_patil/">LeetCode</a></p> -->
-            </div>
-        </section>
+      <section id="contact">
+        <div id="conp">
+          <h1>Contact</h1>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:patilanuja98@gmail.com">patilanuja98@gmail.com</a>
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ahpatil@clemson.edu">ahpatil@clemson.edu</a>
+          </p>
+          <p>
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/-anuja-patil/">Anuja Patil</a>
+          </p>
+          <p>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/patilanuja">patilanuja</a>
+          </p>
+          <!-- <p><i class="fa fa-code"></i> <a href="https://leetcode.com/anuja_98_patil/">LeetCode</a></p> -->
+        </div>
+      </section>
     </div>
     <script>
-        var sidemenu = document.getElementById("sidemenu");
+      var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
-        function closemenu(){
-            sidemenu.style.right = "-200px";
-        }
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
-</body>
+  </body>
 </html>
