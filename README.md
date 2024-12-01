@@ -1,9 +1,1 @@
-# Portfolio
-
-PORTFOLIO SITE
-
-## Tools used:
-
-• HTML5 <br>
-• CSS3 <br>
-• Javascript ES6+
+Visit: https://patilanuja.github.io/patilanuja/
