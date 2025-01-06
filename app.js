@@ -42,6 +42,7 @@ const scrollElements = [
   [document.querySelector(".project-3"), "project-animate-3"],
   [document.querySelector(".project-4"), "project-animate-4"],
   [document.querySelector(".project-5"), "project-animate-5"],
+  [document.querySelector(".project-6"), "project-animate-6"],
 ];
 
 const animate = ([element, className]) => {
